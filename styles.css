@@ -1,0 +1,73 @@
+        body {
+            font-family: 'Arial', sans-serif; /* Fonte moderna */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            text-align: center; /* Centraliza o texto no header e no footer */
+            background-color: #007bff;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        #produto {
+            text-align: center; /* Centraliza o texto no #produto */
+            padding: 20px;
+        }
+        #produto img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        #produto img:first-child,
+        #produto img:nth-child(2) {
+            display: inline-block; /* Faz com que as duas primeiras imagens fiquem lado a lado */
+        }
+        #equipe {
+            text-align: center; /* Centraliza o texto na seção equipe */
+            padding: 20px;
+        }
+        .team-member {
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
+        }
+        .team-member img {
+            width: 150px; /* Tamanho fixo para as imagens dos membros */
+            height: 150px; /* Tamanho fixo para as imagens dos membros */
+            border-radius: 50%; /* Torna as imagens circulares */
+            object-fit: cover; /* Garante que a imagem mantenha a proporção */
+        }
+        #formulario {
+            background-color: #afc9e3;
+            padding: 20px;
+            text-align: center; /* Centraliza o texto no formulário */
+        }
+        #formulario form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left; /* Deixa o texto do formulário alinhado à esquerda */
+        }
+        #formulario label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        #formulario input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #formulario button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #formulario button:hover {
+            background-color: #0056b3;
+        }
